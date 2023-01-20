@@ -1,6 +1,6 @@
 package Console;
 
-public class CardBack {
+public enum CardBack {
     CentralDeck(null), //
 
     Alexandrie(Wonder.Alexandrie), //

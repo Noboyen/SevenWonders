@@ -1,6 +1,6 @@
 package Console;
 
-public class CardCategory {
+public enum CardCategory {
     MaterialCard,
     ProgressCard,
     WarCard,
