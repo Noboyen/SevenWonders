@@ -1,4 +1,4 @@
-package Console;
+/*package com.example.sevenwonders;
 
 
 
@@ -14,3 +14,4 @@ public class GameMove {
         }
     }
 }
+*/

@@ -1,4 +1,4 @@
-package Console;
+/*package com.example.sevenwonders;
 
 public enum CardBack {
     CentralDeck(null), //
@@ -19,4 +19,4 @@ public enum CardBack {
         this.centralDeck = (wonderDeck == null);
         this.wonderDeck = wonderDeck;
     }
-}
+}*/

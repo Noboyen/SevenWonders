@@ -1,4 +1,4 @@
-package Interface;
+package com.example.sevenwonders;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -14,7 +14,7 @@ public class Menu_Controller extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Menu_Controller.class.getResource("Menu_Page.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Bienvenue dans le menu !");
         stage.setScene(scene);
         stage.show();

@@ -1,4 +1,4 @@
-package Console;
+package com.example.sevenwonders;
 
 public enum CardCategory {
     MaterialCard,

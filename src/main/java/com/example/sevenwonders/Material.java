@@ -1,4 +1,4 @@
-package Console;
+package com.example.sevenwonders;
 
 import com.google.common.collect.ImmutableList;
 

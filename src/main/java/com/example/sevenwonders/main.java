@@ -1,6 +1,4 @@
-package Console;
-
-import Interface.Menu_Controller;
+package com.example.sevenwonders;
 
 import java.util.Scanner;
 

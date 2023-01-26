@@ -1,4 +1,4 @@
-package Console;
+package com.example.sevenwonders;
 
 /**
  * type of cards

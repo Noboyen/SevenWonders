@@ -1,4 +1,4 @@
-package Console;
+/*package com.example.sevenwonders;
 
 public class WonderFragment {
 
@@ -24,4 +24,4 @@ public class WonderFragment {
         this.trophyCount = trophyCount;
         this.heightLevel = heightLevel;
     }
-}
+*/

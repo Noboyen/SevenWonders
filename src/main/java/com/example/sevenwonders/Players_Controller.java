@@ -1,4 +1,6 @@
-package Interface;
+package com.example.sevenwonders;
+
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -13,30 +15,16 @@ public class Players_Controller {
 
 
         @FXML
-        private Button twoplayersButton;
-
-        @FXML
-        private Button fourplayersButton;
-
-        @FXML
-        private Button fiveplayersButton;
-
-        @FXML
-        private Button sixplayersButton;
-
-        @FXML
-        private Button sevenplayersButton;
-
-        @FXML
         private Button returnButton;
 
         @FXML
-        private Button threeplayersButton;
+        private Button threePlayersButton;
+
 
 
 
         @FXML
-        void returnMenu(ActionEvent event) throws IOException {
+        void goMenuPage(ActionEvent event) throws IOException {
                 Stage stage = new Stage();
                 Stage stage1 = (Stage) returnButton.getScene().getWindow();
                 FXMLLoader fxmlLoader = new FXMLLoader(Menu_Controller.class.getResource("Menu_Page.fxml"));
@@ -53,7 +41,7 @@ public class Players_Controller {
         @FXML
         void threePlayers(ActionEvent event) throws IOException {
                 Stage stage = new Stage();
-                Stage stage1 = (Stage) threeplayersButton.getScene().getWindow();
+                Stage stage1 = (Stage) threePlayersButton.getScene().getWindow();
                 FXMLLoader fxmlLoader = new FXMLLoader(Menu_Controller.class.getResource("ThreePlayers_Page.fxml"));
                 Scene scene = new Scene(fxmlLoader.load());
                 stage.setTitle("Jeu avec 3 joueurs");

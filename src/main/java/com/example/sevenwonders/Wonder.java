@@ -152,6 +152,4 @@ public enum Wonder {
         int trophyCount;
         int heightLevel;
     }
-}
-}
- */
+}*/

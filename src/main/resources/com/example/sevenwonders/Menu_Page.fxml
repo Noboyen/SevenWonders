@@ -9,26 +9,22 @@
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="848.0" prefWidth="1179.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.Menu_Controller">
-   <children>
-      <ImageView fitHeight="848.0" fitWidth="1179.0">
-         <image>
-            <Image url="Menu_SevenW.jpg" />
-         </image>
-      </ImageView>
-      <Button fx:id="playButton" layoutX="507.0" layoutY="383.0" mnemonicParsing="false" onAction="#playGame" prefHeight="55.0" prefWidth="166.0" text="Play" />
-      <Button fx:id="closeButton" layoutX="555.0" layoutY="477.0" mnemonicParsing="false" onAction="#closeGame" prefHeight="34.0" prefWidth="69.0" text="Quit" />
-      <Label layoutX="228.0" layoutY="148.0" text="Welcome in the Seven Wonders game ! " textAlignment="CENTER" textFill="#8a82ff">
-         <font>
-            <Font name="Coolsville Regular" size="33.0" />
-         </font>
-         <effect>
-            <DropShadow height="41.52" radius="17.3275" spread="0.39" width="29.79">
-               <color>
-                  <Color red="0.9605262875556946" green="0.040021929889917374" blue="0.040021929889917374" />
-               </color>
-            </DropShadow>
-         </effect>
-      </Label>
-   </children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1218.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sevenwonders.Menu_Controller">
+   <ImageView fitHeight="860.0" fitWidth="1218.0" layoutY="-2.0">
+      <Image url="@Menu_SevenW.jpg" />
+   </ImageView>
+   <Button fx:id="playButton" layoutX="507.0" layoutY="383.0" mnemonicParsing="false" onAction="#playGame" prefHeight="55.0" prefWidth="166.0" text="Play" />
+   <Button fx:id="closeButton" layoutX="555.0" layoutY="477.0" mnemonicParsing="false" onAction="#closeGame" prefHeight="34.0" prefWidth="69.0" text="Quit" />
+   <Label layoutX="228.0" layoutY="148.0" text="Welcome in the Seven Wonders game ! " textAlignment="CENTER" textFill="#8a82ff">
+      <font>
+         <Font name="Coolsville Regular" size="33.0" />
+      </font>
+      <effect>
+         <DropShadow height="41.52" radius="17.3275" spread="0.39" width="29.79">
+            <color>
+               <Color red="0.9605262875556946" green="0.040021929889917374" blue="0.040021929889917374" />
+            </color>
+         </DropShadow>
+      </effect>
+   </Label>
 </AnchorPane>
