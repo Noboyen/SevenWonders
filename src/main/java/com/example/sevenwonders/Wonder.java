@@ -1,5 +1,6 @@
-/*package Console;
+package com.example.sevenwonders;
 
+import com.example.sevenwonders.WonderFragment;
 import com.google.common.collect.ImmutableList;
 
 
@@ -105,7 +106,7 @@ public enum Wonder {
         ImmutableList.Builder<WonderFragment> fragList = ImmutableList.<WonderFragment>builder();
         String wonderName = this.name().toLowerCase();
         String imagesResourceDir = "images/wonders/" + wonderName;
-        for(val b : fragmentBuilders) {
+        for(WonderFragmentBuilder b : fragmentBuilders) {
             String fragName = b.simpleName;
             String backImageResource = imagesResourceDir + "/piece-back-" + wonderName + "-" + fragName + ".png";
             String frontImageResource = imagesResourceDir + "/piece-front-" + wonderName + "-" + fragName + ".png";
@@ -151,5 +152,14 @@ public enum Wonder {
         boolean triggerEffect;
         int trophyCount;
         int heightLevel;
+
+        public WonderFragmentBuilder(String simpleName, int materialRequiredCount, boolean sameMaterial, boolean triggerEffect, int trophyCount, int heightLevel) {
+            this.simpleName = simpleName;
+            this.materialRequiredCount = materialRequiredCount;
+            this.sameMaterial = sameMaterial;
+            this.triggerEffect = triggerEffect;
+            this.trophyCount = trophyCount;
+            this.heightLevel = heightLevel;
+        }
     }
-}*/
+}

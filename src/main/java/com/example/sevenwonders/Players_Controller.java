@@ -42,7 +42,7 @@ public class Players_Controller {
         void threePlayers(ActionEvent event) throws IOException {
                 Stage stage = new Stage();
                 Stage stage1 = (Stage) threePlayersButton.getScene().getWindow();
-                FXMLLoader fxmlLoader = new FXMLLoader(Menu_Controller.class.getResource("ThreePlayers_Page.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(Menu_Controller.class.getResource("FirstGame_Page.fxml"));
                 Scene scene = new Scene(fxmlLoader.load());
                 stage.setTitle("Jeu avec 3 joueurs");
 
