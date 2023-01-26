@@ -2,8 +2,6 @@ package Console;
 
 import java.util.List;
 
-import lombok.val;
-
 /**
  * counter of cards by type in a deck.
  * Typically in a deck, card are randomly shuffled, but any "intelligent" enough user could maintain counters of already seen cards
@@ -50,7 +48,7 @@ public class CardByTypeCounters {
 
     public CardByTypeCounters(List<Card> cards) {
         if (cards != null && !cards.isEmpty()) {
-            for(val card: cards) {
+            for(Card card: cards) {
                 setIncr(card.front, 1);
             }
         }

@@ -1,6 +1,6 @@
 package Console;
 
-import Interface.General_Controller;
+import Interface.Menu_Controller;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class main {
             if (choice == 1){
                 Game.Play();
             }else{
-                General_Controller.main();
+                Menu_Controller.main();
 
             }
         }

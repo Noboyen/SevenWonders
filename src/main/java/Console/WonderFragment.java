@@ -1,10 +1,5 @@
 package Console;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@Getter
-@AllArgsConstructor
 public class WonderFragment {
 
     public final Wonder wonder; // implicit parent
@@ -19,4 +14,14 @@ public class WonderFragment {
     public final int trophyCount;
     public final int heightLevel;
 
+    public WonderFragment(Wonder wonder, String frontImageResource, String backImageResource, int materialRequiredCount, boolean sameMaterial, boolean triggerEffect, int trophyCount, int heightLevel) {
+        this.wonder = wonder;
+        this.frontImageResource = frontImageResource;
+        this.backImageResource = backImageResource;
+        this.materialRequiredCount = materialRequiredCount;
+        this.sameMaterial = sameMaterial;
+        this.triggerEffect = triggerEffect;
+        this.trophyCount = trophyCount;
+        this.heightLevel = heightLevel;
+    }
 }

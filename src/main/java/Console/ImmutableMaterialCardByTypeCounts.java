@@ -1,7 +1,5 @@
 package Console;
 
-import lombok.val;
-
 public class ImmutableMaterialCardByTypeCounts {
 
     public final int woodCount;

@@ -1,9 +1,7 @@
-package Console;
+/*package Console;
 
 import com.google.common.collect.ImmutableList;
 
-import lombok.AllArgsConstructor;
-import lombok.val;
 
 public enum Wonder {
 
@@ -104,14 +102,14 @@ public enum Wonder {
         this.displayName = displayName;
         this.frenchName = frenchName;
         this.effectDescription = effectDescription;
-        val fragList = ImmutableList.<WonderFragment>builder();
-        val wonderName = this.name().toLowerCase();
-        val imagesResourceDir = "images/wonders/" + wonderName;
+        ImmutableList.Builder<WonderFragment> fragList = ImmutableList.<WonderFragment>builder();
+        String wonderName = this.name().toLowerCase();
+        String imagesResourceDir = "images/wonders/" + wonderName;
         for(val b : fragmentBuilders) {
-            val fragName = b.simpleName;
-            val backImageResource = imagesResourceDir + "/piece-back-" + wonderName + "-" + fragName + ".png";
-            val frontImageResource = imagesResourceDir + "/piece-front-" + wonderName +  "-" + fragName + ".png";
-            val frag = new WonderFragment(this,
+            String fragName = b.simpleName;
+            String backImageResource = imagesResourceDir + "/piece-back-" + wonderName + "-" + fragName + ".png";
+            String frontImageResource = imagesResourceDir + "/piece-front-" + wonderName + "-" + fragName + ".png";
+            WonderFragment frag = new WonderFragment(this,
                     backImageResource, frontImageResource, b.materialRequiredCount, b.sameMaterial,
                     b.triggerEffect, b.trophyCount, b.heightLevel);
             fragList.add(frag);
@@ -146,7 +144,6 @@ public enum Wonder {
         return new WonderFragmentBuilder(simpleName, materialRequiredCount, sameMaterial, triggerEffect, trophyCount, heightLevel);
     }
 
-    @AllArgsConstructor
     private static class WonderFragmentBuilder {
         String simpleName;
         int materialRequiredCount;
@@ -155,5 +152,6 @@ public enum Wonder {
         int trophyCount;
         int heightLevel;
     }
-
 }
+}
+ */
